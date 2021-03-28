@@ -159,8 +159,4 @@ equal.addEventListener('click', () => {
 });
 
 
-// To do
-// add decimal functionality
-// improve design
-// add keyboard functionality
-// add backspace button
+

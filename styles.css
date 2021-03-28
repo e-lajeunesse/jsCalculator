@@ -1,11 +1,12 @@
 .outline{
   height:50vh;
   width:30vw;
-  border:20px solid blue;
+  border:15px solid blue;
+  border-bottom: 10px solid blue;  
   display:flex;
   flex-direction: column;
   background-color: blue;
-  /* justify-content: space-between; */
+  
 }
 
 
@@ -15,7 +16,9 @@
   /* text-align: center; */
   font-weight: bold;
   border-bottom: 10px solid blue;
-  background-color: rgba(184, 185, 184, 0.98);
+  margin-left:5px;
+  width:97%;
+  background-color: rgba(209, 211, 209, 0.98);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,4 +58,8 @@ body{
   justify-content: center;
   align-items: center;
   height:100vh;
+}
+
+#clear{
+  border:5px solid blue;
 }
