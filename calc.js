@@ -61,7 +61,7 @@ function multiply(num1, num2) {
 
 function division(num1, num2) {
   if (num2 === 0) {
-    return 'No dividing by zero moron!'
+    return 'Unable to divide by zero'
   }
   return roundThree(num1 / num2);
 }
@@ -91,10 +91,19 @@ numbers.forEach((number) => {
     else {
       display.textContent += number.textContent;
     }
-
   });
 });
 
+//event listener for decimal
+let decimalUsed = false;
+
+const decimal = document.querySelector('#decimal');
+decimal.addEventListener('click', () => {
+  if (!display.textContent.includes('.')) {
+    display.textContent += '.';
+  }
+
+});
 
 
 //add event listeners for operator buttons
